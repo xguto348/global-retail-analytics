@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RETAIL_DB
+    schema: RAW
+    tables:
+      - name: ORDERS
+      - name: LINEITEM
+      - name: CUSTOMER
+      - name: NATION
+      - name: REGION
