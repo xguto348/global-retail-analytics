@@ -1,0 +1,18 @@
+-- Create Warehouse (compute layer)
+CREATE WAREHOUSE IF NOT EXISTS DEV_WH
+  WAREHOUSE_SIZE = 'XSMALL'
+  AUTO_SUSPEND = 60
+  AUTO_RESUME = TRUE;
+
+-- Use warehouse
+USE WAREHOUSE DEV_WH;
+
+-- Create Database
+CREATE DATABASE IF NOT EXISTS RETAIL_DB;
+
+-- Use database
+USE DATABASE RETAIL_DB;
+
+-- Create Schemas (medallion-style foundation)
+CREATE SCHEMA IF NOT EXISTS RAW;
+CREATE SCHEMA IF NOT EXISTS ANALYTICS;
