@@ -1,9 +1,13 @@
 SELECT
-    o.order_date,
+    DATEADD(
+        YEAR,
+        2020 - EXTRACT(YEAR FROM o.order_date),
+        o.order_date
+    ) AS order_date,
+
     c.region,
     c.nation,
 
-    -- métricas
     SUM(l.extended_price * (1 - l.discount)) AS revenue,
     SUM(l.quantity) AS total_quantity,
     COUNT(DISTINCT o.order_id) AS total_orders
@@ -15,6 +19,6 @@ JOIN {{ ref('stg_customer') }} c
     ON o.customer_id = c.customer_id
 
 GROUP BY
-    o.order_date,
+    order_date,
     c.region,
     c.nation
