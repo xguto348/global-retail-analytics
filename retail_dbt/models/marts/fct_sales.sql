@@ -1,9 +1,5 @@
 SELECT
-    DATEADD(
-        YEAR,
-        2020 - EXTRACT(YEAR FROM o.order_date),
-        o.order_date
-    ) AS order_date,
+    DATEADD(YEAR, 28, o.order_date) AS order_date,
 
     c.region,
     c.nation,
