@@ -77,8 +77,10 @@ The Power BI dashboard focuses on delivering clear and actionable insights:
 <img width="1629" height="914" alt="image" src="https://github.com/user-attachments/assets/8c3be633-1c6d-462e-8764-e02429a426e4" />
 
 ### Tooltip
+<img width="884" height="360" alt="image" src="https://github.com/user-attachments/assets/4e66cf3b-7e4f-4fa3-b769-2a4fcdfc5e73" />
 
 ### Filters
+<img width="1622" height="911" alt="image" src="https://github.com/user-attachments/assets/2937b833-006f-4562-934c-8317fd0e8629" />
 
 ---
 
