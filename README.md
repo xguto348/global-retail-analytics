@@ -74,7 +74,7 @@ The Power BI dashboard focuses on delivering clear and actionable insights:
 ## 📸 Dashboard Preview
 
 ### Overview
-xx
+<img width="1629" height="914" alt="image" src="https://github.com/user-attachments/assets/8c3be633-1c6d-462e-8764-e02429a426e4" />
 
 ### Tooltip
 
